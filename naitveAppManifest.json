@@ -1,7 +1,7 @@
 {
 	"name": "firefox.webextension.test",
 	"description": "My Application",
-	"path": "C:\\Users\\RYU\\github\\Firefox_WebExtension_test\\Firefox_WebExtension_Test.bat",
+	"path": "C:\\Users\\RYU\\github\\Firefox_WebExtension_test\\webExtensionToCmdCommndExec.exe",
 	"type": "stdio",
 	"allowed_extensions": [
 		"FirefoxWebExtensionTest@example.com"

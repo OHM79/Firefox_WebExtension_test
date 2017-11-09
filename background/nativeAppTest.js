@@ -13,6 +13,10 @@
 // 	port.postMessage("aa");
 // });
 
+
+/**
+ * コレが無難に起動するけどbatのレスポンスがどうもだめ
+ */
 chrome.browserAction.onClicked.addListener(() => {
 	chrome.runtime.sendNativeMessage('firefox.webextension.test', {
 		text: "Hello"
