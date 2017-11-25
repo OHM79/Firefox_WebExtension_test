@@ -7,14 +7,16 @@
 	<!-- chrome.storageから読み込むなら下記必須 -->
 	<script src="../OSS/loadStorage.js"></script>
 	<script src="../background/storageController.js"></script>
-
+	
+	<script src="../background/addonUpdateCheck.js"></script>
 </head>
 
 <body style="min-width:25px">
 	<div class="option" id="button1">ボタン1</div>
-	<div class="option" id="button2">ボタン2</div>
-
-	<div class="option" id="restart">Firefoxを再起動</div>
+	
+	<div class="option" id="updateCheck">更新確認</div>
+	<div class="option" id="reloadStorageJson">storageSetting.jsonを再読み込み</div>
+	<div class="option" id="restart">backgroundを再起動</div>
 	<div class="option" id="windowAlert">window.alertを出す</div>
 
 	<script src="optionDefault.js"></script>

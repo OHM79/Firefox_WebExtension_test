@@ -26,7 +26,8 @@
 
 
 	"permissions": [
-		"<all_urls>",
+		"http://*/*",
+		"https://*/*",
 		"tabs",
 		"contextMenus",
 		"storage"
@@ -38,7 +39,9 @@
 			"OSS/jquery-2.1.3.min.js",
 			"OSS/LoadStorage.js",
 			"background/storageController.js",
-			"background/addonInstalled.js"
+			"background/addonInstalled.js",
+			"background/addonUpdateCheck.js",
+			"background/context_menu.js"
 		]
 	}
 }
